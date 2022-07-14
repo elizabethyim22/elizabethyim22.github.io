@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="flower.png">
+  <meta charset="UTF-8">
+  <link rel="preload" as="font" href="https://fonts.googleapis.com">
+  <link rel="preload" as="font" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=League+Script&family=Amatic+SC&family=Playfair+Display&family=Josefin+Sans:wght@200&family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="font" href="https://fonts.googleapis.com">
+  <link rel="preload" as="font" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elizabeth Yim</title>
+  
+</head>
+
+<body class="light-theme" onload="typeWriter2()">
+  
+  <div id="wrapper">
+    <header>
+      <noscript>You need to enable Javascript to view the full site</noscript>
+        
+    </header>
+      <ul class="nav-links">
+        <li><a href="mySite2.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li class="current"><a href="projects.html">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <button class="btn">Dark</button>
+  </div>
+
+  <a href="mySite2.html"><img id="flower" src="flower.png"></a>
+<div class="greet">
+  <div style="display: flex; flex-direction: column;">
+    <h1 class="title fade-in">My Projects</h1>
+    <!-- <table>
+        <tr>
+            <td><img class="project-images" style="width: 100%; height: 100%" src="images/Carleton_Classifieds.png"></td>
+            <td>Carleton Classifieds</td>
+        </tr>
+        <tr>
+            <td><img class="project-image" style="width: 100%; height: 230px;" src="images/Software_Design.png"></td>
+            <td>Software Design Project</td>
+        </tr>
+        <tr>
+            <td>Image3</td>
+            <td>Personal Website</td>
+        </tr>
+    </table> -->
+    <div style="display: flex; flex-direction: column;">
+      <div class="projects">
+        <div class="project-info">
+          <h1 id="carleton-classifieds" class="project-title"></h1>
+          <h2 class="project-description">A catch-all platform that allows its users to buy, sell, and offer various items and/or services in one place.</h2>
+          <div class="my-info">
+            <p id="resume-text">view in </p>
+            <p id="finger">☞</p>
+            <button id="resume" type="button"  onclick=" window.open('Resume.pdf', '_blank')">GitHub</button>
+          </div>
+        </div>
+        <div class="img-container">
+          <img class="project-images fade-in2"  src="images/Carleton_Classifieds.png">
+          <div class="overlay">
+            <div class="overlay-text">Developed using: </br> >HTML </br> >CSS </br> >Javascript </br> >Grommet </br> >React </br> >Django </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects">
+        <div id="weeereads" class="project-info">
+          <h1 class="project-title">WeeeReads</h1>
+          <h2 class="project-description">A software that takes in previously read titles as input and outputs book recommendations based on similar titles drawn from an existing database.</h2>
+          <div class="my-info">
+            <p id="resume-text">view in </p>
+            <p id="finger">☞</p>
+            <button id="resume" type="button"  onclick=" window.open('Resume.pdf', '_blank')">GitHub</button>
+          </div>
+        </div>
+        <div class="img-container">
+          <img class="project-images fade-in2"  src="images/Software_Design.png">
+          <div class="overlay">
+            <div class="overlay-text">Developed using: </br> > HTML </br> > CSS </br> > SQL
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects">
+        <div class="project-info">
+          <h1 class="project-title">Personal Website</h1>
+          <h2 class="project-description">My personal website used to showcase my previous projects and abilities.</h2>
+          <div class="my-info">
+            <p id="resume-text">view in </p>
+            <p id="finger">☞</p>
+            <button id="resume" type="button"  onclick=" window.open('Resume.pdf', '_blank')">GitHub</button>
+          </div>
+        </div>
+        <div class="img-container">
+          <img class="project-images fade-in2"  src="images/personal.png">
+          <div class="overlay">
+            <div class="overlay-text">Developed using: </br> > HTML </br> > CSS </br> > Javascript
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+  </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+  
+  <!-- <div class="footer">
+    <p>Footer</p>
+  </div> -->
+
+  <script src="app.js"></script>
+</body>
+</html>
