@@ -167,6 +167,7 @@ li.current a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 
@@ -245,14 +246,9 @@ li.current a{
 }
 
 #profile {
-    width: 340px;
-    margin-left: 70px;
-    /* padding: 25px; */
-    display: flex;
-    /* justify-content: center; */
-    flex-direction: column;
-    position: relative;
-    border-radius: 50%;
+    position: absolute;
+    max-width: 350px;
+    right: 200px;
 }
 
 #profile-image {
