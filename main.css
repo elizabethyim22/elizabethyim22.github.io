@@ -43,6 +43,7 @@ body {
     flex-direction: row;
     position: relative;
     padding: 32px 32px 10px 32px;
+    /* align-items: center; */
 }
 
 /*this is for styling the header*/
@@ -135,7 +136,7 @@ li.current a{
     color: var(--active_color);
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
-    text-underline-offset: 8.7px;
+    text-underline-offset: 7.4px;
     
 }
 
@@ -161,13 +162,27 @@ li.current a{
     padding: 30px 100px 0 100px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
+    /* margin: auto; */
+    /* position: absolute; */
+
+}
+
+#home_page {
+    padding: 30px 100px 0 100px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* margin-top: 2%; */
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translate(0, -50%);
+    /* bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    margin: auto; */
     /* position: absolute; */
 
 }
