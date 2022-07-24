@@ -98,7 +98,7 @@ header h1 {
     /* margin-left: 60px;
     margin-right: 25px;*/
     /* padding: 25px 5px; */
-    font-size: 25px;
+    font-size: 1.5vw;
     text-transform: uppercase; 
 
 }
@@ -161,6 +161,13 @@ li.current a{
     padding: 30px 100px 0 100px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     /* position: absolute; */
 
 }
@@ -169,19 +176,19 @@ li.current a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 
 #intro {
-    font-size: 25px;
+    font-size: 2vw;
     margin: 0;
     color: var(--intro);
 }
 
 #job {
     margin: 25px 70px 25px 0;
-    font-size: 110px;
+    font-size: 8vw;
     font-family: 'sacramento', cursive;
     letter-spacing: 2px;
     color: var(--job);
@@ -197,7 +204,7 @@ li.current a{
 }
 
 #resume-text {
-    font-size: 20px;
+    font-size: 1.5vw;
     letter-spacing: 1.3px;
     font-family: 'amatic sc', cursive;
     color: var(--about_text);
@@ -205,7 +212,7 @@ li.current a{
 }
 
 #finger {
-    font-size: 30px;
+    font-size: 1.5vw;
     color: var(--finger);
     margin-right: 17px;
     position: relative;
@@ -220,10 +227,10 @@ li.current a{
 
 #resume {
     /* padding: 15px 32px; */
-    height: 60px;
-    width: 130px;
+    height: 3.5vw;
+    width: 7vw;
     /* display: inline-block; */
-    font-size: 23px;
+    font-size: 1vw;
     text-align: center;
     border-radius: 15px;
     color: var(--finger);
@@ -248,19 +255,26 @@ li.current a{
 }
 
 #profile {
-    position: relative;
-    max-width: 350px;
-    margin-left: 50px;
+    position: absolute;
+    width: 30vw;
+    right: 10%;
+    /* aspect-ratio: 2/1; */
+    /* margin: auto auto; */
+    
+    /* margin-left: 50px; */
     /* max-width: 500px; */
-    right: 10px;
-    flex-grow: 2;
+    /* right: 1%; */
+    /* try to put image certain percentage from side so it will always stay that percent away i.e. right: 20% */
+    /* flex-grow: 1; */
+    /* left: 10%; */
 }
 
 #profile-image {
-    justify-content: center;    
-
+    
+    /* justify-content: center;     */
+    /* right: 10%; */
     border-radius: 50%;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
