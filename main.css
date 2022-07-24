@@ -161,13 +161,15 @@ li.current a{
     padding: 30px 100px 0 100px;
     display: flex;
     flex-direction: row;
+    /* position: absolute; */
+
 }
 
 .greet-text-align {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
+    flex-grow: 1;
 }
 
 
@@ -246,14 +248,20 @@ li.current a{
 }
 
 #profile {
-    position: absolute;
+    position: relative;
     max-width: 350px;
-    right: 200px;
+    margin-left: 50px;
+    /* max-width: 500px; */
+    right: 10px;
+    flex-grow: 2;
 }
 
 #profile-image {
+    justify-content: center;    
+
     border-radius: 50%;
     width: 100%;
+    height: auto;
 }
 
 
