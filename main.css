@@ -162,36 +162,27 @@ li.current a{
     padding: 30px 100px 0 100px;
     display: flex;
     flex-direction: row;
-    
+    /* position: relative;     */
     /* margin: auto; */
     /* position: absolute; */
 
 }
 
-#home_page {
+#home-page {
     padding: 30px 100px 0 100px;
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
-    /* margin-top: 2%; */
     position: absolute;
     top: 50%;
     right: 0;
     left: 0;
     transform: translate(0, -50%);
-    /* bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto; */
-    /* position: absolute; */
-
 }
 
 .greet-text-align {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* flex-grow: 1; */
 }
 
 
@@ -295,29 +286,51 @@ li.current a{
 
 
 #about {
-  display: flex;
-  flex-direction: column;  
+    display: flex;
+    flex-direction: column;  
 }
 
-#img-quote {
+#img-dots {
+    flex-direction: row; 
+    /* margin-left: -70px; */
+    position: absolute;
+    left: 7%;
+    /* bottom: 10%; */
+}
+
+
+#img-description {
     display: flex;
     flex-direction: row;
     /* margin-top: 25px; */
     align-items: center;
+    margin-top: 300px;
+    /* position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; */
 }
 
-#about-images {
-    width: 450px;
-    height: 550px;
+.about-images {
+    width: 100%;
+    height: auto;
+    /* width: 450px;
+    height: 550px; */
     /* border-radius: 5%; */
 }
 
 .slideshow-container {
+    max-width: 30vw;
+    /* max-height: 30vw; */
+    /* height: 50vw; */
     /* width: 500px;
     height: 500px; */
-    position: relative;
+    /* position: relative;
+    margin-left:60px; */
     /* margin: auto; */
-    margin-left: 60px;
+    /* left: 5%; */
     
 }
 .mySlides {
@@ -353,9 +366,17 @@ li.current a{
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 550px;
+    width: 35vw;
     margin-left: 230px;
     /* padding-left: 60px; */
+    position: absolute;
+    right: 10%;
+    margin-top: -10px;
+    text-align: left;
+    font-size: 1.5vw;
+    letter-spacing: .5px;
+    text-align: left;
+    padding: 0 35px 0 0;
 
 }
 
@@ -363,7 +384,7 @@ li.current a{
     text-align: left;
     color: var(--about_text);
     position: relative;
-    font-size: 40px;
+    font-size: 2vw;
     font-weight: bold;
     font-style: italic;
     /* justify-content: center; */
@@ -377,13 +398,8 @@ li.current a{
 
 #description {
     color: var(--about_text);
-    position: relative;
-    margin-top: -10px;
-    text-align: left;
-    font-size: 25px;
-    letter-spacing: .5px;
-    text-align: left;
-    padding: 0 35px 0 0;
+    /* align-items: center; */
+    
 }
 
 
@@ -481,7 +497,7 @@ li.current a{
 
 .title {
     font-family: 'sacramento', cursive;
-    font-size: 80px;
+    font-size: 7vw;
 }
 
 #connect {
